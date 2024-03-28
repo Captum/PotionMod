@@ -1,0 +1,4 @@
+relic add crazyawesomeandfuntime:ArmoredCore
+relic add crazyawesomeandfuntime:MetalFist
+
+C:\Program Files (x86)\Steam\steamapps\

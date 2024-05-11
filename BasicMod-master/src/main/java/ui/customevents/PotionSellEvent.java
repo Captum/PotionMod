@@ -8,12 +8,12 @@ public class PotionSellEvent extends AbstractImageEvent {
     public static final String ID = "My First Event";
     private static final EventStrings eventStrings = CardCrawlGame.languagePack.getEventString(ID);
     // This text should be set up through loading an event localization json file
-    private static final String[] DESCRIPTIONS = new String[] { "Potion Mod", "This is a potion sell event." };
-    private static final String[] OPTIONS = new String[] { "Option 1", "Option 2" };
-    private static final String NAME = "Potion Sell Event";
+    private static final String[] DESCRIPTIONS = eventStrings.DESCRIPTIONS;
+    private static final String[] OPTIONS = eventStrings.OPTIONS;
+    private static final String NAME = eventStrings.NAME;
 
     public PotionSellEvent() {
-        super(NAME, DESCRIPTIONS[0], "img/events/eventpicture.png");
+        super(NAME, DESCRIPTIONS[0], "images/events/filler.png");
 
         for (String option : OPTIONS) {
             this.imageEventText.setDialogOption(option);

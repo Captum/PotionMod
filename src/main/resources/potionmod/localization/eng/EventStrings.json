@@ -1,8 +1,8 @@
 {
-  "EventID": {
-    "NAME": "Potion Sell",
+  "${modID}:EventID": {
+    "NAME": "Potion Vendor",
     "DESCRIPTIONS": [
-      "Sell your potions!"
+      "Sell your potions"
     ]
   }
 }
